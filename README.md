@@ -1,5 +1,5 @@
-Flexis FrontEnd
-===============
+JS App Sample FrontEnd
+======================
 
 Development
 -----------
