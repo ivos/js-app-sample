@@ -1,0 +1,8 @@
+<body>
+	<span
+		class="inline-message alert alert-{{alertType}} {% if(dismissable) { %}alert-dismissable{% } %}">
+		{% if(dismissable) { %}
+		<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> {% }
+		%} <span class="inline-message-icon glyphicon glyphicon-{{glyphicon}}"></span>&nbsp;{=text=}
+	</span>
+</body>

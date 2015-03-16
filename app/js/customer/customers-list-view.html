@@ -1,0 +1,23 @@
+<body>
+	<form id="find-customer-form" action="#" class="form-horizontal" role="form">
+		<div id="customers-list-panel" class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+					Customers <span id="customers-count" class="badge pull-right"></span>
+				</h3>
+			</div>
+			<div class="panel-body">
+				<div class="form-group">
+					<label for="name" class="col-sm-2 control-label"><u>N</u>ame</label>
+					<div class="col-sm-9">
+						<input id="name" name="name" type="text" class="form-control field" placeholder="Name"
+							autocomplete="off" accesskey="N" />
+					</div>
+					<div data-messages-for="name" class="col-sm-1"></div>
+				</div>
+			</div>
+			<div id="customers-list" class="list-group"></div>
+		</div>
+		<input type="submit" class="hidden" />
+	</form>
+</body>

@@ -1,0 +1,60 @@
+/* Messages */
+.inline-message {
+	padding: 5px 15px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	display: inline-block;
+}
+
+.alert-dismissable {
+	padding-right: 35px;
+}
+
+@media ( max-width : 767px) {
+	.inline-message {
+		margin-top: 5px;
+	}
+}
+
+.inline-message-icon {
+	font-size: 115%;
+}
+
+.system-messages {
+	position: fixed;
+	top: 60px;
+	left: 30%;
+	margin: 0px auto;
+	z-index: 99999;
+}
+
+/* Required field */
+.required {
+	color: red;
+	font-weight: bold;
+	font-size: 12pt;
+}
+
+/* Gravatar */
+img.gravatar {
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+/* Fixed navbar */
+body {
+	padding-top: 70px;
+}
+
+/* Help */
+.help-icon {
+	font-size: 130%;
+	padding: 6px 0px;
+	height: 32px;
+}
+
+a.help-link {
+	margin-right: 3px;
+	height: 32px;
+}
